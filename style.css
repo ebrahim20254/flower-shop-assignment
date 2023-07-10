@@ -108,8 +108,65 @@ header{
 }
 
 /******************** banner last image  *************/
-.banner-last-img{
+/* .banner-last-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+} */
+.last-section{
     display: flex;
     justify-content: center;
     margin-top: 70px;
 }
+/* .last-section h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+} */
+.last-section h1 p{
+    text-align: center;
+}
+
+
+
+/***************** footer section start now  ***********/
+.footer{
+    width: 100%;
+    height: 449px;
+    background: #111010;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.footer-text{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-text h1{
+    text-align: center;
+    font-size: 48px;
+    margin: 20px;
+}
+.footer-text p{
+    width: 625px;
+   color: rgba(255, 255, 255, 0.90);
+   text-align: center;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+}
+.footer-text h5{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+/******************* footer section done  ******************/
