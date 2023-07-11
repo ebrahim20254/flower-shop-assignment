@@ -135,11 +135,13 @@ header{
     justify-content: center;
 }
 .optional-banner-img p{
-   color: #FFF;
+    color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
+    margin-top: 30px;
+    text-align: center;
 }
 /*********** optional section done ***************** */
 
