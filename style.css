@@ -43,11 +43,6 @@ header{
 /********************* header section done  ******************/
 
 /*********** our featured flowers section  start now ********/
-/* .our-featured{
-     height: 70vh;
-     width: 100%;
-   background-color: aquamarine;
-} */
 .featured-text h1{
     color: #272727;
     text-align: center;
@@ -82,6 +77,7 @@ header{
     height: 538px;
     border-radius: 400px 400px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    text-align: center;
 }
 .featured-box2{
     width: 464px;
@@ -89,6 +85,7 @@ header{
     border-radius: 400px 400px 0px 0px;
     background: url(<path-to-image>),
      lightgray 50% / cover no-repeat;
+     text-align: center;
 
 }
 .featured-box3{
@@ -96,6 +93,7 @@ header{
     height: 538px;
     border-radius: 400px 400px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    text-align: center;
 }
 .featured-all-box{
     display: flex;
@@ -115,9 +113,35 @@ header{
     text-decoration-line: underline;
 }
 
-
-
 /*********** our featured flowers section done **************/
+
+.optional-section{
+    background-color: #E55473;
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+.optional-banner-img{
+    display: flex;
+     gap: 50px;
+}
+.optional-banner-img img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.optional-banner-img p{
+   color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+/*********** optional section done ***************** */
 
 .section-banner{
     width: 100%;
@@ -188,11 +212,16 @@ header{
 .input-section{
      display: flex;
      align-items: center;
-     justify-content: center
+     justify-content: center;
+     background-image: url(./FlowerAsset/Rectangle\ 9.png);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;  
+     width: 1440px;
+     height: 449px;
+     margin: 100px auto;  
 }
-/* .input-banner-section{
-      margin-top: 100px;
-} */
+
 .input-banner-section h2{
     text-align: center;
     font-size: 40px;
@@ -219,7 +248,46 @@ header{
     margin-top: 20px;
     color: white;
 }
-
+ /************* natural section start  ************/
+ .natural-section{
+        display: flex;
+        margin: 50px auto;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+ }
+ .natural-img{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 190px;
+    background-position: left;
+    padding-left: 100px;
+ }
+ .natural-img img{
+     width: 800px;
+     border-radius: 10px;
+ }
+ .natural-text h2{
+    font-size: 45px;
+    padding-bottom: 20px;
+    margin-left:   50px;
+ }
+ .natural-text p{
+    width: 70%;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+ }
+ .natural-text button{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 30px 15px;
+    margin-top: 20px;
+    color: white;
+    margin-left: 50px;
+ }
+ /*********** natural section end **********/
 
 /***************** footer section start now  ***********/
 .footer{
